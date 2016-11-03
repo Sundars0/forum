@@ -1,5 +1,8 @@
 %h1 This is the Root Path
 
-- @post.each do |post|
-  = post.title
+- @posts.each do |post|
+  %h2= link_to post.title, post
   %p= post.content.truncate(100)
+  %p= "Created #{time_ago_in_words(post.created_at)} ago"    
+
+= link_to 'New Post', new_post_path 
