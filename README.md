@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Forum built using RoR, The forum has CRUD functionality, Users can sign in and create posts/articles, they can also add comments, edit and delete comments.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.3.0p
 
-* System dependencies
+* Rails - 5.0.0.1
 
-* Configuration
+* Additional gems - haml, devise and simple form
 
-* Database creation
+* Database - sqlite3
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the site - Bundle install, db:migrate and run server
